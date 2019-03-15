@@ -36,7 +36,7 @@ You may need to install the [.Net Core SDK](https://dotnet.microsoft.com/)
 
 In tennis, there are two players, which we can easily model with a discriminated union (a variant) :
 
-```OCaml
+```fsharp
 type player =
   | PlayerOne
   | PlayerTwo
@@ -58,10 +58,10 @@ When one of the players have forty points, there are three possible outcomes of 
 
 ### Challenge
 
-You get some tests in `__tests__/tennis_test.re` folder which should serve you as a specification of what you can code.
+You get some tests in `tests/Tests.fs` folder which should serve you as a specification of what you can code.
 This Kata will consist in several iterations.
 At the end of each iteration you score the number of green tests ! (•̀ᴗ•́)و
-Between iterations you will the animator will give you some clues to improve the safety and confidence in your code.
+Between iterations, the animator will give you some clues to improve the safety and confidence in your code.
 
 #### Next iterations
 
